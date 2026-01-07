@@ -25,12 +25,29 @@ export default function Home() {
         </p>
 
         {/* Coming Soon */}
-        <div className="mb-8">
+        <div className="mb-12">
           <div className="inline-block px-6 py-2.5 border border-zinc-800/50 rounded-sm bg-zinc-900/20">
             <p className="text-xs sm:text-sm text-zinc-500 uppercase tracking-[0.35em] font-medium font-[family-name:var(--font-inter)]">
               COMING SOON
             </p>
           </div>
+        </div>
+
+        {/* Contact */}
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-6 text-zinc-600 text-sm font-light font-[family-name:var(--font-inter)]">
+          <a
+            href="mailto:info@enainnovation.com"
+            className="hover:text-zinc-400 transition-colors duration-200"
+          >
+            info@enainnovation.com
+          </a>
+          <span className="hidden sm:inline text-zinc-800">|</span>
+          <a
+            href="mailto:info@enainnovation.com.tr"
+            className="hover:text-zinc-400 transition-colors duration-200"
+          >
+            info@enainnovation.com.tr
+          </a>
         </div>
       </div>
 

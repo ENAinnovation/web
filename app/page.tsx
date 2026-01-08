@@ -34,19 +34,12 @@ export default function Home() {
         </div>
 
         {/* Contact */}
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-6 text-zinc-600 text-sm font-light font-[family-name:var(--font-inter)]">
+        <div className="flex items-center justify-center text-zinc-600 text-sm font-light font-[family-name:var(--font-inter)]">
           <a
             href="mailto:info@enainnovation.com"
             className="hover:text-zinc-400 transition-colors duration-200"
           >
             info@enainnovation.com
-          </a>
-          <span className="hidden sm:inline text-zinc-800">|</span>
-          <a
-            href="mailto:info@enainnovation.com.tr"
-            className="hover:text-zinc-400 transition-colors duration-200"
-          >
-            info@enainnovation.com.tr
           </a>
         </div>
       </div>
